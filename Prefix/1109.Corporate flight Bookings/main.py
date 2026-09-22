@@ -7,3 +7,4 @@ class Solution:
         for i in range(1,n):
             diff[i]+=diff[i-1]
         return diff[:n]
+    #muốn cộng 1 dãy từ khoảng[a->b] 1 số V thì dùng mảng hiệu sẽ thấy số ngoài đầu sẽ +v và ngoài số cuối -V
