@@ -21,7 +21,7 @@ class Solution:
                 if node.left:
                     q.append(node.left)
                 if node.right:
-                    q.append(node.right)dấdasd
+                    q.append(node.right)
         return rel
         
         
